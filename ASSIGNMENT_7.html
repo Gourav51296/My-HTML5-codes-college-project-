@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+     <title> CODI_GURU </title>
+          <script type="text/javascript">
+        function display()
+        {
+            var a,b,c;
+            a=parseInt(f2.fno.value);
+            b=parseInt(f2.sno.value);
+
+            c=a+b;
+            document.writeln("Addition is =:"+c);
+            document.writeln("<hr>");
+            document.writeln("<br>");
+
+            c=a-b;
+            document.writeln("Substraction is =:"+c);
+            document.writeln("<hr>");
+            document.writeln("<br>");
+
+            c=a*b;
+            document.writeln("multiplication is =:"+c);
+            document.writeln("<hr>");
+            document.writeln("<br>");
+
+            c=a/b;
+            document.writeln("Division is =:"+c);
+            document.writeln("<hr>");
+            document.writeln("<br>");
+        }
+        
+     </script>
+</head>
+<body>
+    <fieldset>
+        <legend>ARITHMETIC</legend>
+        <pre>
+            <center>
+        <form name="f2">
+            <label for="fno">Enter First NO:= </label>
+            <input type="text" name="fno" id="fno"><br>
+            <label for="sno">Enter Second NO:= </label>
+            <input type="text" name="sno" id="sno"><br><hr>
+            <input type="submit" value="calculate" onclick="display()"><hr>
+        </form></center>
+    </pre>
+    </fieldset>
+    
+</body>
+</html>

@@ -1,0 +1,8 @@
+#t1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+#t1 tr:hover{background:rgb(255, 0, 0);}
+#t1 th{
+
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+}

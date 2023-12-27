@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> CODI_GURU </title>
+    <script>
+        function rev()
+        {
+            var revstr="";
+            var strr = document.getElementById("strr").value;
+            var len = strr.length;
+            for(var i=len-1; i>=0; i--)
+            {
+                revstr=revstr+strr.charAt(i);
+            }
+             document.writeln(revstr);
+           
+        }
+    </script>
+</head>
+<body>
+
+    Enter a Number or String <input type="text" name="check" id="strr"><br>
+    <input type="submit" value="check" onclick="rev();"> 
+    
+</body>
+</html>

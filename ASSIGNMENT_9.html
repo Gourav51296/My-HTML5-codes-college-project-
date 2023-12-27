@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> CODI_GURU </title>
+    <script>
+        function abc()
+        {
+            var s,i,count,ch;
+            count = 0;
+            s = frm1.strr.value;
+
+            for(i=0 ; i<=s.length ; i++ )
+            {
+                ch= s.charAt(i);
+
+                if(  ch=="A"|| ch=="E"|| ch=="I"|| ch=="O"|| ch=="U"||ch=="A"|| ch=="E"|| ch=="I"|| ch=="O"|| ch=="u")
+                {
+                    count ++;
+                }
+            }
+
+            document.writeln(count);
+
+        }
+    </script>
+</head>
+<body>
+    
+    <form  name="frm1" >
+
+        <label for="strr"> ENTER STRING </label>
+        <input type="text" name="strr" id="strr"/><br>
+        <input type="submit" value="count" onclick="abc();">
+    </form>
+
+</body>
+</html>

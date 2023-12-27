@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>8 color </title>
+    <script>
+        function f1()
+        {
+            document.bgColor="black";
+            window.setTimeout("f2()",1000);
+        
+        } 
+         function f2()
+        {
+            document.bgColor="pink";
+            window.setTimeout("f3()",1000);
+        
+        }
+        function f3()
+        {
+            document.bgColor="red";
+            window.setTimeout("f4()",1000);
+        
+        }
+        function f4()
+        {
+            document.bgColor="purple";
+            window.setTimeout("f5()",1000);
+        
+        }
+        function f5()
+        {
+            document.bgColor="aqua";
+            window.setTimeout("f6()",1000);
+        
+        }
+        function f6()
+        {
+            document.bgColor="blue";
+            window.setTimeout("f7()",1000);
+        
+        }
+        function f7()
+        {
+            document.bgColor="gray";
+            window.setTimeout("f8()",1000);
+        
+        }
+      function f8()
+        {
+            document.bgColor="teal";
+            window.setTimeout("f1()",1000);
+        
+        }
+
+    </script>
+</head>
+<body onload="f1()">
+    <h1 align="center"> 8 colors</h1>
+   
+    
+</body>
+</html>
